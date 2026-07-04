@@ -2,7 +2,7 @@ import axios from "axios";
 
 // change if your backend port different
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://stock-trading-app-eflt.onrender.com/api",
 });
 
 // STOCKS
